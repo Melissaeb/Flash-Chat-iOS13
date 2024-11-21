@@ -17,11 +17,14 @@
 		0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62818E235DF01000E35CAF /* LoginViewController.swift */; };
 		0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628190235DF01B00E35CAF /* ChatViewController.swift */; };
 		0B62819E235F0F4D00E35CAF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0B62819D235F0F4D00E35CAF /* README.md */; };
-		4884F7152CEC2C420012B555 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4884F7142CEC2C420012B555 /* GoogleService-Info.plist */; };
+		481E1ADE2CED646D0011A583 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481E1ADC2CED646D0011A583 /* MessageCell.swift */; };
+		481E1ADF2CED646D0011A583 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 481E1ADD2CED646D0011A583 /* MessageCell.xib */; };
+		481E1AE12CED68740011A583 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 481E1AE02CED68740011A583 /* GoogleService-Info.plist */; };
 		4884F7182CEC2D9B0012B555 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4884F7172CEC2D9B0012B555 /* FirebaseAuth */; };
 		4884F71A2CEC2D9B0012B555 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4884F7192CEC2D9B0012B555 /* FirebaseFirestore */; };
 		4884F71C2CEC3B420012B555 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4884F71B2CEC3B3D0012B555 /* Constants.swift */; };
 		4884F71E2CEC416A0012B555 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4884F71D2CEC416A0012B555 /* Message.swift */; };
+		48A4DF0D2CEE86B700AD245F /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 48A4DF0C2CEE86B700AD245F /* IQKeyboardManagerSwift */; };
 		C4CBC2F8662C8AC6105E7AE9 /* Pods_Flash_Chat_iOS13.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E891C74589701CC84D1F4D /* Pods_Flash_Chat_iOS13.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +42,9 @@
 		0B628190235DF01B00E35CAF /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		0B62819D235F0F4D00E35CAF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0DEBF3AB5F65288736047929 /* Pods-Flash Chat iOS13.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.release.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.release.xcconfig"; sourceTree = "<group>"; };
-		4884F7142CEC2C420012B555 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		481E1ADC2CED646D0011A583 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		481E1ADD2CED646D0011A583 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		481E1AE02CED68740011A583 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4884F71B2CEC3B3D0012B555 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4884F71D2CEC416A0012B555 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = "Flash Chat iOS13/Message.swift"; sourceTree = SOURCE_ROOT; };
 		ADF1C316104E515C43A427A3 /* Pods-Flash Chat iOS13.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.debug.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.debug.xcconfig"; sourceTree = "<group>"; };
@@ -52,6 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4CBC2F8662C8AC6105E7AE9 /* Pods_Flash_Chat_iOS13.framework in Frameworks */,
+				48A4DF0D2CEE86B700AD245F /* IQKeyboardManagerSwift in Frameworks */,
 				4884F7182CEC2D9B0012B555 /* FirebaseAuth in Frameworks */,
 				4884F71A2CEC2D9B0012B555 /* FirebaseFirestore in Frameworks */,
 			);
@@ -91,7 +97,7 @@
 				0B62817F235DEE8400E35CAF /* Assets.xcassets */,
 				0B628181235DEE8400E35CAF /* LaunchScreen.storyboard */,
 				0B628184235DEE8400E35CAF /* Info.plist */,
-				4884F7142CEC2C420012B555 /* GoogleService-Info.plist */,
+				481E1AE02CED68740011A583 /* GoogleService-Info.plist */,
 			);
 			path = "Flash Chat iOS13";
 			sourceTree = "<group>";
@@ -111,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				0B62817C235DEE8100E35CAF /* Main.storyboard */,
+				481E1ADC2CED646D0011A583 /* MessageCell.swift */,
+				481E1ADD2CED646D0011A583 /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +195,7 @@
 			mainGroup = 0B62816A235DEE8100E35CAF;
 			packageReferences = (
 				4884F7162CEC2D9B0012B555 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				48A4DF0B2CEE86B700AD245F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = 0B628174235DEE8100E35CAF /* Products */;
 			projectDirPath = "";
@@ -202,9 +211,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481E1AE12CED68740011A583 /* GoogleService-Info.plist in Resources */,
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
+				481E1ADF2CED646D0011A583 /* MessageCell.xib in Resources */,
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,
-				4884F7152CEC2C420012B555 /* GoogleService-Info.plist in Resources */,
 				0B62819E235F0F4D00E35CAF /* README.md in Resources */,
 				0B62817E235DEE8100E35CAF /* Main.storyboard in Resources */,
 			);
@@ -250,6 +260,7 @@
 				4884F71E2CEC416A0012B555 /* Message.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
+				481E1ADE2CED646D0011A583 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +470,14 @@
 				minimumVersion = 11.5.0;
 			};
 		};
+		48A4DF0B2CEE86B700AD245F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -471,6 +490,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4884F7162CEC2D9B0012B555 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
+		};
+		48A4DF0C2CEE86B700AD245F /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48A4DF0B2CEE86B700AD245F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

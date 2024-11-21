@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyB8QN1PpXtRMP_T_5jYbJ-U0pNBdBNg58g</string>
+	<string>AIzaSyBBKDiwN-e-IbAHL9o7O74VpXq1vZO9F9s</string>
 	<key>GCM_SENDER_ID</key>
-	<string>99964692170</string>
+	<string>941370544087</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>co.melissaeb.Flash-Chat-iOS13</string>
+	<string>com.melissaeb.Flash-Chat-iOS13</string>
 	<key>PROJECT_ID</key>
-	<string>flash-chat-ios13-a3c3d</string>
+	<string>flash-chat-8a576</string>
 	<key>STORAGE_BUCKET</key>
-	<string>flash-chat-ios13-a3c3d.firebasestorage.app</string>
+	<string>flash-chat-8a576.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:99964692170:ios:72e13f9b4313769b413633</string>
+	<string>1:941370544087:ios:e461da7c1a9a253f45c592</string>
 </dict>
 </plist>
